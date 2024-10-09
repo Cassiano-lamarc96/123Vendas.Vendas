@@ -1,9 +1,11 @@
+using Vendas.Application.UseCases.Configuration;
 using Vendas.Data.EF.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddEntityFramework();
+builder.Services.AddApplicationLayer();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

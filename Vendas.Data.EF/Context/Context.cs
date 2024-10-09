@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Vendas.Data.EF.Mapping;
 using Vendas.Domain.Entity;
-using Vendas.Domain.ObjectValues;
 
 namespace Vendas.Data.EF.Context;
 

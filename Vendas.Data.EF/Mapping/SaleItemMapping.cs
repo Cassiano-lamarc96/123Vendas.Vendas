@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Vendas.Domain.ObjectValues;
+using Vendas.Domain.Entity;
 
 namespace Vendas.Data.EF.Mapping;
 
