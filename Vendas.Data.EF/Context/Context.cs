@@ -7,7 +7,7 @@ namespace Vendas.Data.EF.Context;
 
 public class Context : DbContext
 {
-    public DbSet<Sales> Sales { get; set; }
+    public DbSet<Sale> Sales { get; set; }
     public DbSet<SaleItem> SalesItem { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

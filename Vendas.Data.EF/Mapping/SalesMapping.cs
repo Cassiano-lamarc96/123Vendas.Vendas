@@ -4,9 +4,9 @@ using Vendas.Domain.Entity;
 
 namespace Vendas.Data.EF.Mapping;
 
-public class SalesMapping : IEntityTypeConfiguration<Sales>
+public class SalesMapping : IEntityTypeConfiguration<Sale>
 {
-    public void Configure(EntityTypeBuilder<Sales> builder)
+    public void Configure(EntityTypeBuilder<Sale> builder)
     {
         
     }
