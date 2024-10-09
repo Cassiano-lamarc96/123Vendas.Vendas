@@ -1,5 +1,7 @@
-﻿namespace Vendas.Data.EF.Repository;
+﻿using Vendas.Domain.RepositoryInterfaces;
 
-public class SaleRepository
+namespace Vendas.Data.EF.Repository;
+
+public class SaleRepository : ISaleRepository
 {
 }
