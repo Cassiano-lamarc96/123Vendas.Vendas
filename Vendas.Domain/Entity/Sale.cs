@@ -24,10 +24,9 @@ public class Sale
         if (companyBranchGuid == Guid.Empty)
             throw new Exception("Company Branch is required!");
 
-        Guid newSaleId = new Guid();
         return new Sale()
         {
-            Guid = newSaleId,
+            Guid = Guid.NewGuid(),
             Number = new Random().Next(),
             SaleDate = DateTime.UtcNow,
             CompanyBranchGuid = companyBranchGuid,
