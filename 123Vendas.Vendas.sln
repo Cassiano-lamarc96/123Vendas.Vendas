@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendas.Api", "Vendas.Api\Vendas.Api.csproj", "{2139ACDE-FB0A-4273-BCC3-7AD70571C16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas.Api", "Vendas.Api\Vendas.Api.csproj", "{2139ACDE-FB0A-4273-BCC3-7AD70571C16E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{9EC48A1B-C2C4-4722-A821-B25FCE97FD42}"
 EndProject
@@ -11,15 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B171506F-0193-4A70-A5A0-4D10F3D006D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendas.Domain", "Vendas.Domain\Vendas.Domain.csproj", "{5DE0F11E-B2FB-4E2C-A442-9C2ACCDBE0B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas.Domain", "Vendas.Domain\Vendas.Domain.csproj", "{5DE0F11E-B2FB-4E2C-A442-9C2ACCDBE0B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Tests", "0 - Tests", "{CADFEAF4-F8E3-4DE1-A79E-3C358905BCB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{DC18AD49-69CC-46DF-B37C-71AB7FC82DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendas.Application", "Vendas.Application\Vendas.Application.csproj", "{07B6E13C-68C6-4D48-AA5B-903FF0163FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas.Application", "Vendas.Application\Vendas.Application.csproj", "{07B6E13C-68C6-4D48-AA5B-903FF0163FFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendas.Data.EF", "Vendas.Data.EF\Vendas.Data.EF.csproj", "{63B33E19-97C0-4366-B8CE-B06777BF297E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vendas.Data.EF", "Vendas.Data.EF\Vendas.Data.EF.csproj", "{63B33E19-97C0-4366-B8CE-B06777BF297E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendas.Test", "Vendas.Test\Vendas.Test.csproj", "{4711EBFA-6917-41F9-8832-B14B1BE4C15A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{63B33E19-97C0-4366-B8CE-B06777BF297E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63B33E19-97C0-4366-B8CE-B06777BF297E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63B33E19-97C0-4366-B8CE-B06777BF297E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4711EBFA-6917-41F9-8832-B14B1BE4C15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4711EBFA-6917-41F9-8832-B14B1BE4C15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4711EBFA-6917-41F9-8832-B14B1BE4C15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4711EBFA-6917-41F9-8832-B14B1BE4C15A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{5DE0F11E-B2FB-4E2C-A442-9C2ACCDBE0B6} = {E5211835-A203-456C-83B3-1B16C2E574F3}
 		{07B6E13C-68C6-4D48-AA5B-903FF0163FFF} = {DC18AD49-69CC-46DF-B37C-71AB7FC82DC4}
 		{63B33E19-97C0-4366-B8CE-B06777BF297E} = {B171506F-0193-4A70-A5A0-4D10F3D006D6}
+		{4711EBFA-6917-41F9-8832-B14B1BE4C15A} = {CADFEAF4-F8E3-4DE1-A79E-3C358905BCB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7238DBD3-14D3-4EB2-8920-B80B614A03E6}
