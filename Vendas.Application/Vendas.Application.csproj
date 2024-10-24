@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Serilog" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Vendas.Data.EF\Vendas.Data.EF.csproj" />
     <ProjectReference Include="..\Vendas.Domain\Vendas.Domain.csproj" />
   </ItemGroup>
